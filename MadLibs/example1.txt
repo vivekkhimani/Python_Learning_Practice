@@ -1,0 +1,1 @@
+[name] is having a party! It's going to be at [place] on [day-of-the-week]. Please make sure to show up at [time], or else you will be required to [verb] a/an [animal] with your [body-part].

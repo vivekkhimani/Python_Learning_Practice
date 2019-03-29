@@ -1,0 +1,5 @@
+Number of words starting with:H is 1
+Number of words starting with:K is 1
+Number of words starting with:L is 2
+Number of words starting with:R is 1
+Number of words starting with:V is 1
