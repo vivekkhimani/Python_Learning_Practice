@@ -1,3 +1,5 @@
+import secrets
+
 def partition(A,start,stop):
     pivot = A[stop]
     i = start
@@ -24,9 +26,8 @@ def qsort(A,start,stop):
         
 
 if __name__ == "__main__":
-    import random
     for x in range(0,10):
-        L = [random.randint(0,100) for k in range(0,10)]
+        L = [secrets.SystemRandom().randint(0,100) for k in range(0,10)]
         print("Quick Sort Input:",L)
         qsort(L,0,len(L)-1)
         print("Results after Sort:",L)

@@ -1,4 +1,4 @@
-import random #Fillin1
+import secrets
 
 def PrintRocket():
     for x in range (10, -1, -1):    #Fillin2
@@ -16,8 +16,8 @@ def PrintRocket():
 def main():
     numCorrect = 0
     for x in range(5):
-        num1 = random.randint (1,10)  #Fillin4
-        num2 = random.randint (1,10)  #Fillin5
+        num1 = secrets.SystemRandom().randint(1,10)  #Fillin4
+        num2 = secrets.SystemRandom().randint(1,10)  #Fillin5
         
         answer = int(input(str(num1) + " + " + str(num2) + " = "))
         
