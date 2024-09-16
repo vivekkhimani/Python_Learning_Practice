@@ -1,3 +1,5 @@
+import secrets
+
 def merge(A,B):
     C = []
     while len(A)>0 and len(B)>0:
@@ -34,9 +36,8 @@ def msort(X):
         
         
 if __name__ == "__main__":
-    import random
     for x in range(0, 10):
-        L = [random.randint(0,100) for k in range(0,10)]
+        L = [secrets.SystemRandom().randint(0,100) for k in range(0,10)]
         print ("Merge Input:",L)
         L = msort(L)
         print ("Results after Merge Sort:",L)
