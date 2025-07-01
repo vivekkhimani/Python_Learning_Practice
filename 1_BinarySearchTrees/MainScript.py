@@ -1,11 +1,11 @@
-import random
+import secrets
 
 def populate(n):
     L = []
     
     
     for i in range(0,n):
-        rand_num = random.randint(0,n)
+        rand_num = secrets.SystemRandom().randint(0,n)
         L.append(rand_num)
         
     return L
